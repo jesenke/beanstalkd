@@ -1,0 +1,21 @@
+{
+    "name": "kezungui/test",
+    "authors": [
+        {
+            "name": "kezungui",
+            "email": "kezungui@comteck.cn"
+        }
+    ],
+    "description": "test composer framework",
+    "keywords": [
+        "php",
+        "swoole"
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Test\\":"framework/Test/"
+        }
+    },
+    "require": {}
+}
